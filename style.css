@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #e5e5e5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-text {
+  color: #ffffff;
+}
+
+.left-panel {
+  background: #1e2939;
+}
+
+.photo {
+  margin-top: 40px;
+}
+
+.left-text {
+  padding-left: 40px;
+}
+
+.left-text a {
+  margin-left: 5px;
+}
+
+a {
+  color: #595959;
+}
+
+.left-text ul {
+  list-style: none;
+}
+
+.left-text ul li::before {
+  content: "\2022";
+  color: #fb6d3a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2.5em;
+}
+
+.right-panel {
+  margin: 20px;
+  padding: 40px;
+}
+
+.work-position h3 {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.color-orange {
+  color: #fb6d3a;
+}
+
+.education {
+  margin-top: 43px;
+}
+
+.color-gray {
+  color: #a8a8a8;
+}
+
+.block-3 {
+  margin-top: 51px;
+}
+
+.ordered-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 0px;
+  margin-top: 8px;
+}
+
+.ordered-list p {
+  display: inline-block;
+  font-weight: bold;
+  width: 13px;
+}
+
+.projects {
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
