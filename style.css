@@ -38,16 +38,16 @@ a {
 }
 
 .left-text ul {
-  list-style: none;
+  color: #fb6d3a;
+  line-height: 24px;
+  font-size: 14px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
-.left-text ul li::before {
-  content: "\2022";
-  color: #fb6d3a;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -2.5em;
+.left-text ul span {
+  color: #ffffff;
 }
 
 .right-panel {
@@ -96,4 +96,8 @@ a {
 
 .description {
   margin-bottom: 40px;
+}
+
+.bold {
+  font-weight: 700;
 }
