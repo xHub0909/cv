@@ -50,13 +50,7 @@ a {
   color: #ffffff;
 }
 
-.right-panel {
-  margin: 20px;
-  padding: 40px;
-}
-
 .work-position h3 {
-  display: inline-block;
   margin: 0px;
   padding: 0px;
 }
@@ -70,6 +64,9 @@ a {
 }
 
 .color-gray {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
   color: #a8a8a8;
 }
 
@@ -95,9 +92,64 @@ a {
 }
 
 .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
   margin-bottom: 40px;
 }
 
 .bold {
   font-weight: 700;
+}
+
+main {
+  padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+  width: 400px;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.block-2 {
+  width: 485px;
+  margin-bottom: 51px;
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.work-positions-list {
+  padding-left: 0;
+  list-style-position: inside;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.header-primary {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
